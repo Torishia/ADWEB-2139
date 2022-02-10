@@ -1,0 +1,27 @@
+*{
+    font-family: "Helvetica";
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid red;
+    width: 50%;
+}
+th{
+    color:black;
+    background-color: pink;
+}
+td{
+    background-color:red;
+    color: yellow;
+}
+th, td{
+    padding: 1%;
+    border: 1px solid black;
+}
+h2{
+    text-align: center;
+    color:yellow;
+}
+h3{
+    color: yellow;
+}

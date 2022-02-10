@@ -1,0 +1,78 @@
+.logo{
+    height: 60px;
+    width: 60px;
+    margin-left: 10%;
+}
+nav{
+    background-color: #e67022;
+}
+.cover{
+    filter: brightness(40%);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.cloud{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 2%;
+    background-color: rgb(253, 255, 142);
+}
+.cloudbg{
+    background-color: rgb(250, 176, 127);
+}
+
+.app{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 2%;
+    background-color: rgb(250, 176, 127);
+}
+.appbg{
+    background-color: rgb(255, 255, 255);
+}
+
+.adweb{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 2%;
+    background-color: rgb(253, 255, 142);
+}
+.adwebbg{
+    background-color: rgb(250, 176, 127);
+}
+
+.webdev{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 2%;
+    background-color: rgb(250, 176, 127);
+}
+.webdevbg{
+    background-color: rgb(255, 255, 255);
+}
+
+.footer{
+    background-color: #a34201;
+    margin-bottom: -2%;
+    color: white;
+}
+
+.footer-navi{
+    line-height: 200%;
+    margin-left: 5%;
+}
+
+hr{
+    margin-left: -5%;
+}

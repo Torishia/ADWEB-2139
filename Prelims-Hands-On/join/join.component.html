@@ -1,0 +1,18 @@
+<h4>Fill the form Below:</h4>
+    
+    <!--KEYUP--->
+    <p>First Name <input type="text" style="width: 15em;" 
+        #keyupbox placeholder="keyup box" (keyup)= "getData(keyupbox.value)" 
+        [(ngModel)]="firstName" class="form-control"/></p>
+    <p>Last Name <input type="text" style="width: 15em;" 
+        #keyinputbox placeholder="input box" (input)= "getData(keyinputbox.value)" 
+        [(ngModel)]="lastName" class="form-control"/></p>
+    <p>Student Name : {{firstName}} {{lastName}}</p>
+    <p>Enter Email Address: <input type="text" style="width: 20em;" 
+        #keydownbox placeholder="keydown box" (keydown)= "getData(keydownbox.value)" 
+        [(ngModel)]="emel" class="form-control"/></p>
+    <p>Email: {{emel}}</p>
+    <p>Enter Institution/Affliation: <input type="text" style="width: 20em;" 
+        #keyblurbox placeholder="blur box" (blur)= "getData(keyblurbox.value)" 
+        [(ngModel)]="ins" class="form-control"/></p>
+    <p>Institution/Affliation: {{ins}}</p>

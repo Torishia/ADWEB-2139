@@ -1,0 +1,25 @@
+<div id="cloud"></div>
+<div class="cloudbg">
+<br><br>
+<div class="cloud">
+
+    <p>Enter Student Name <input type="text" [(ngModel)]="studName1" class="form-control" /></p>
+    <p>Enter Student Number <input type="text" [(ngModel)]="studNum1" class="form-control"/></p>
+    <p>Enter Prelim Grade <input type="number" [(ngModel)]="prelim1" class="form-control" /></p>
+    <p>Enter Midterm Grade <input type="number" [(ngModel)]="midterm1" class="form-control" /></p>
+    <p>Enter Final Grade <input type="number" [(ngModel)]="final1" class="form-control" /></p>
+
+    <br>
+    
+    <h3>Student Information</h3>
+    <p>Student Name : {{studName1}}</p>
+    <p>Student Number : {{studNum1}}</p>
+    <p>Prelim Grade : {{prelim1}}</p>
+    <p>Midterm Grade : {{midterm1}}</p>
+    <p>Final Grade : {{final1}}</p>
+    <p>Average of Cloud Computing : {{(prelim1 + midterm1 + final1) / 3}}</p>
+    <br><br>
+
+<br><br>
+</div>
+
