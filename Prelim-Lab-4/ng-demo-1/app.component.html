@@ -1,0 +1,30 @@
+<p>Charles Garcia<br>WD-302</p>
+<h2>Interpolation</h2>
+
+<!--String and Number Binding-->
+<p>Hi my name is {{name}}, {{age}} years old.</p>
+
+<!-- Property Binding -->
+<input type="text" [value] = "studentName">
+
+<!-- Style Binding -->
+<p [style.color]="myColor">Text Color is style using style binding</p>
+
+<!--Class Binding-->
+<p [class]="appliedCSSClass">This Text is style using style binding</p>
+<p [class.blue]="notappliedCSSClass">No Style binding applied in this line</p>
+
+<!--Event Binding-->
+<h2>Event Binding</h2>
+<button (click)="showData($event)">Click</button><br>
+<button on-click="showData($event)"> Click Me Too</button>
+
+<!--Actions-->
+<br><br><h3>Using Keyup, Input, Keydown, and Blur Box</h3>
+Keyup : <input type="text" #keyupbox placeholder="keyup box" (keyup)= "getData(keyupbox.value)"/>
+<br><br>
+Input : <input type=text #keyinputbox placeholder="input box" (input)= "getData(keyinputbox.value)"/>
+<br><br>
+Keydown : <input type=text #keydownbox placeholder="keydown box" (keydown)= "getData(keydownbox.value)"/>
+<br><br>
+Blur : <input type=text #keyblurbox placeholder="blur box" (blur)= "getData(keyblurbox.value)"/>
